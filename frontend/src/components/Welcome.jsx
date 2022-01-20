@@ -10,7 +10,6 @@ const Welcome = () => {
 
   const { currentAccount, connectWallet} = useContext(MintContext);
 
-
   const mintNFT = async () =>{
     const { ethereum } = window;
 
@@ -29,7 +28,7 @@ const Welcome = () => {
       alert("Connect to wallet!")
     }
   }
-  
+
   return (
     <div className="flex w-full justify-center items-center">
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
